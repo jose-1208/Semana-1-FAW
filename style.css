@@ -1,0 +1,63 @@
+html, body{
+    height:100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+h3{
+    text-align: center;
+}  
+
+.general {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: lightblue;
+    border: 1px solid #ccc;
+}
+
+.columna {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    width: 100%;
+    border: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+
+.fila1, .fila2 {
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+    margin-bottom: 10px;
+}
+
+.subdiv1 {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    border: 1px solid #ddd;
+    margin: 10px;
+}
+
+#imagenPerfil{
+    padding: 30px;
+}
+
+.info{
+    padding: 30px;
+}
+
+#imagen1{
+    width: 175px;
+}
+
+.subdiv2{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    border: 1px solid #ddd;
+    margin: 10px;
+    text-align: left;
+}
